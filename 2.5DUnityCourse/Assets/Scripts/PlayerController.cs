@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private int stepsInGrass;
 
     private PlayerControls playerControls;
-    private Rigidbody rigidbody;
+    new private Rigidbody rigidbody;
     private Vector3 movement;
     private bool movingInGrass;
     private float stepTimer;
