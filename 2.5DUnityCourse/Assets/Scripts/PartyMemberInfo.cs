@@ -2,17 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PartyMemberInfo : MonoBehaviour
+[CreateAssetMenu(menuName = "New Party Member")]
+public class PartyMemberInfo : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   public string MemberName;
+   public int StartingLevel;
+   public int BaseHealth;
+   public int BaseStrength;
+   public int BaseSpeed;
+   public GameObject MemberBattleVisualPrefab; //what will be displayed in battle scene
+   public GameObject MemberOverworldVisualPrefab; //what will be displayed in the overworld scene
 }
