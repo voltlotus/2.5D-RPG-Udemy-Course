@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: abbb712c8e3d363409ea0d989115c597, type: 3}
-  m_Name: New Enemy
+  m_Name: Slime
   m_EditorClassIdentifier: 
-  EnemyName: 
-  BaseHealth: 0
-  BaseStrength: 0
-  BaseSpeed: 0
+  EnemyName: Slime
+  BaseHealth: 1
+  BaseStrength: 1
+  BaseSpeed: 1
   EnemyVisualPrefab: {fileID: 0}
