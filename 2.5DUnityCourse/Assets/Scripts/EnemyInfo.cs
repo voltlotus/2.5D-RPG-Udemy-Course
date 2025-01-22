@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "New Enemy")]
-public class Enemy : ScriptableObject
+public class EnemyInfo : ScriptableObject
 {
     public string EnemyName;
     public int BaseHealth;
